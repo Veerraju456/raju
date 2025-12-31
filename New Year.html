@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy New Year 🎉</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #000428, #004e92);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255,255,255,0.2);
+            width: 320px;
+        }
+
+        h1 {
+            font-size: 32px;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px gold; }
+            to { text-shadow: 0 0 25px orange; }
+        }
+
+        p {
+            font-size: 16px;
+            margin: 15px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background: gold;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>🎉 Happy New Year 2026 🎉</h1>
+    <p id="msg">
+        Wishing my family & friends<br>
+        health, happiness, and success ✨
+    </p>
+    <button onclick="changeWish()">Click for Surprise</button>
+</div>
+
+<script>
+    function changeWish() {
+        document.getElementById("msg").innerHTML =
+        "From Dharmadi Veerraju....💻<br>" +
+        "Happy New Year my dear family ❤️<br>"+
+        "Thank you for always standing by me with love, support, and blessings.<br>" +
+        "I wish this New Year brings good health, peace, happiness, and<br>"+
+        "success to each one of you. I am truly grateful to be part of such a wonderful family.";
+        
+    }
+</script>
+
+</body>
+</html>
