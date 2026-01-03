@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://prettyhome.co.in/wp-content/uploads/2023/05/abstract-music-background-scaled.jpg);
+    
+    
+}
+.container{
+    width: 200px;
+    height: 150px;
+    border: 2px solid;
+    background:transparent;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius:15% ;
+    
+}
+.child1{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    border-radius:50px 50px 50px 50px;
+    animation-name: v;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    
+
+    
+}
+.child2{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    border-radius:50px 50px 50px 50px;
+     animation-name: v;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.9s;
+}
+.child3{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    border-radius:50px 50px 50px 50px;
+     animation-name: v;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.8s;
+}
+.child4{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    border-radius:50px 50px 50px 50px;
+     animation-name: v;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.2s;
+}
+.child5{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    border-radius:50px 50px 50px 50px ;
+     animation-name: v;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.9s;
+
+}
+.child6{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    border-radius:50px 50px 50px 50px ;
+     animation-name: v;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.7;
+}
+.child7{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    border-radius:50px 50px 50px 50px ;
+     animation-name: v;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.8s;
+}
+.child8{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    border-radius:50px 50px 50px 50px ;
+     animation-name: v;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.2s;
+}
+.child9{
+    width:10px;
+    height: 50px;
+    background-color: black;
+    border-radius:50px 50px 50px 50px ;
+     animation-name: v;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+}
+@keyframes v {
+    0%{
+        transform:scaleX(0.8);
+    }
+    50%{
+        transform:scaleY(2.5) ;
+    }
+    
+}
